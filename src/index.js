@@ -40,9 +40,9 @@ console.info = function () {
 console.oldDebug = console.debug
 console.debug = function () {
 	if (console.useEmoji) {
-		console.oldDebug('🐞', c.green, ...arguments, c.reset)
+		console.oldDebug('🐞', c.blue, ...arguments, c.reset)
 	} else {
-		console.oldDebug(c.green + '[DEBUG]', ...arguments, c.reset)
+		console.oldDebug(c.blue + '[DEBUG]', ...arguments, c.reset)
 	}
 }
 
