@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/chrisEff/colour-console/compare/v1.1.0...v1.1.1) (2021-12-30)
+
+
+### Bug Fixes
+
+* console.debug() was using wrong emoji ([f9c00f1](https://github.com/chrisEff/colour-console/commit/f9c00f18a34a73f5739f169577d979d74a8fb9f7))
+
 # [1.1.0](https://github.com/chrisEff/colour-console/compare/v1.0.1...v1.1.0) (2021-12-30)
 
 
