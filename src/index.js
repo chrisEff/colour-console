@@ -37,4 +37,13 @@ console.info = function () {
 	}
 }
 
+console.oldDebug = console.debug
+console.debug = function () {
+	if (console.useEmoji) {
+		console.oldDebug('ℹ️️', c.green, ...arguments, c.reset)
+	} else {
+		console.oldDebug(c.green + '[DEBUG]', ...arguments, c.reset)
+	}
+}
+
 module.exports = console
