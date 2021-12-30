@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/chrisEff/colour-console/compare/v1.1.1...v1.1.2) (2021-12-30)
+
+
+### Bug Fixes
+
+* fix: console.debug() was using wrong color ([c4e8469](https://github.com/chrisEff/colour-console/commit/c4e8469ff025339bc7b2c2c19aa724c1253f9c4e))
+
 ## [1.1.1](https://github.com/chrisEff/colour-console/compare/v1.1.0...v1.1.1) (2021-12-30)
 
 
