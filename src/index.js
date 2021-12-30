@@ -31,9 +31,9 @@ console.warn = function () {
 console.oldInfo = console.info
 console.info = function () {
 	if (console.useEmoji) {
-		console.oldWarn('ℹ️️', c.green, ...arguments, c.reset)
+		console.oldInfo('ℹ️️', c.green, ...arguments, c.reset)
 	} else {
-		console.oldWarn(c.green + '[INFO]', ...arguments, c.reset)
+		console.oldInfo(c.green + '[INFO]', ...arguments, c.reset)
 	}
 }
 
