@@ -1,2 +1,4 @@
+.commitlintrc.js
+.eslintrc.js
 .github/
 .releaserc.js

@@ -19,8 +19,11 @@
   "homepage": "https://github.com/chrisEff/colour-console#readme",
   "devDependencies": {
     "@chriseff/eslint-config": "^3.0.0",
+    "@commitlint/cli": "^16.0.1",
+    "@commitlint/config-conventional": "^16.0.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/git": "^10.0.1",
+    "husky": "^7.0.4",
     "semantic-release": "^18.0.1"
   }
 }
