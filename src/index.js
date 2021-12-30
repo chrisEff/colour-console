@@ -15,7 +15,7 @@ console.error = function () {
 	if (console.useEmoji) {
 		console.oldError('❌', c.red, ...arguments, c.reset)
 	} else {
-		console.oldError(c.red, '[ERROR]', ...arguments, c.reset)
+		console.oldError(c.red + '[ERROR]', ...arguments, c.reset)
 	}
 }
 
@@ -24,7 +24,7 @@ console.warn = function () {
 	if (console.useEmoji) {
 		console.oldWarn('⚠️', c.yellow, ...arguments, c.reset)
 	} else {
-		console.oldWarn(c.yellow, '[WARN]', ...arguments, c.reset)
+		console.oldWarn(c.yellow + '[WARN]', ...arguments, c.reset)
 	}
 }
 
@@ -33,7 +33,7 @@ console.info = function () {
 	if (console.useEmoji) {
 		console.oldWarn('ℹ️️', c.green, ...arguments, c.reset)
 	} else {
-		console.oldWarn(c.green, '[INFO]', ...arguments, c.reset)
+		console.oldWarn(c.green + '[INFO]', ...arguments, c.reset)
 	}
 }
 
