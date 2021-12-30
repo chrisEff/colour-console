@@ -31,7 +31,7 @@ console.warn = function () {
 console.oldInfo = console.info
 console.info = function () {
 	if (console.useEmoji) {
-		console.oldInfo('ℹ️️', c.green, ...arguments, c.reset)
+		console.oldInfo('ℹ️', c.green, ...arguments, c.reset)
 	} else {
 		console.oldInfo(c.green + '[INFO]', ...arguments, c.reset)
 	}
@@ -40,7 +40,7 @@ console.info = function () {
 console.oldDebug = console.debug
 console.debug = function () {
 	if (console.useEmoji) {
-		console.oldDebug('ℹ️️', c.green, ...arguments, c.reset)
+		console.oldDebug('🐞', c.green, ...arguments, c.reset)
 	} else {
 		console.oldDebug(c.green + '[DEBUG]', ...arguments, c.reset)
 	}
