@@ -19,10 +19,15 @@ Just install it, import it once at the top of you project's entry file and forge
 ```js
 require('colour-console')
 
+console.time('Printing these logs took')
+
 console.error('This is an error.')
 console.warn('This is a warning.')
 console.info('This is an info.')
 console.debug('This is a debug.')
+console.trace('This is a trace.')
+
+console.timeEnd('Printing these logs took')
 ```
 
 ![example output](example1.png)
