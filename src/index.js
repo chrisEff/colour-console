@@ -46,4 +46,45 @@ console.debug = function () {
 	}
 }
 
+console.oldTrace = console.trace
+console.trace = function () {
+
+	// console.trace internally uses console.error,
+	// so we're temporarily replacing the latter.
+
+	const tempError = console.error
+	console.error = function () {
+		const args = [...arguments]
+		if (args[0].startsWith('Trace: ')) {
+			args[0] = args[0].substr(7)
+		}
+
+		if (console.useEmoji) {
+			console.oldError('👣', c.magenta, ...args, c.reset)
+		} else {
+			console.oldError(c.magenta + '[TRACE]', ...args, c.reset)
+		}
+	}
+	console.oldTrace(...arguments)
+	console.error = tempError
+}
+
+console.oldTime = console.time
+console.time = function (label) {
+	if (console.useEmoji) {
+		console.oldTime('⏱  ' + c.cyan + label + c.reset)
+	} else {
+		console.oldTime(c.cyan + '[TIME] ' + label + c.reset)
+	}
+}
+
+console.oldTimeEnd = console.timeEnd
+console.timeEnd = function (label) {
+	if (console.useEmoji) {
+		console.oldTimeEnd('⏱  ' + c.cyan + label + c.reset)
+	} else {
+		console.oldTimeEnd(c.cyan + '[TIME] ' + label + c.reset)
+	}
+}
+
 module.exports = console
