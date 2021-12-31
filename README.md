@@ -1,7 +1,7 @@
 # colour-console (for node.js)
 
 [![GitHub license](https://img.shields.io/github/license/chrisEff/colour-console.svg)](https://github.com/chrisEff/colour-console/blob/master/LICENSE)
-![npm](https://img.shields.io/npm/v/colour-console)
+[![npm](https://img.shields.io/npm/v/colour-console)](https://www.npmjs.com/package/colour-console)
 
 So you're working on this small node.js project where you have a lot of `console.error()`/ `warn()` / `debug()` statements
 and you just want the output to look a little more colourful?
