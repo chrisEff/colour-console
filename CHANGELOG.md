@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/chrisEff/colour-console/compare/v1.1.2...v1.2.0) (2021-12-31)
+
+
+### Features
+
+* add support for console.trace + console.time/timeEnd ([a0d89fe](https://github.com/chrisEff/colour-console/commit/a0d89fecce0c8c7372fb6221f84df374e630d707))
+
 ## [1.1.2](https://github.com/chrisEff/colour-console/compare/v1.1.1...v1.1.2) (2021-12-30)
 
 
