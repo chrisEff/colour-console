@@ -6,7 +6,7 @@
 	"scripts": {
 		"prepare": "husky install",
 		"cm": "git-cz",
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "jest",
 		"semantic-release": "semantic-release"
 	},
 	"repository": {
@@ -34,6 +34,7 @@
 		"commitizen": "^4.2.4",
 		"eslint-config-prettier": "^8.3.0",
 		"husky": "^7.0.4",
+		"jest": "^27.4.5",
 		"lint-staged": "^12.1.4",
 		"prettier": "^2.5.1",
 		"pretty-quick": "^3.1.3",
