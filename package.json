@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "prepare": "husky install",
     "cm": "git-cz",
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
