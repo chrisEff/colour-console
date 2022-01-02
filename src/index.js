@@ -48,7 +48,6 @@ console.debug = function () {
 
 console.oldTrace = console.trace
 console.trace = function () {
-
 	// console.trace internally uses console.error,
 	// so we're temporarily replacing the latter.
 

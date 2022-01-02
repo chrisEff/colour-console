@@ -1,41 +1,41 @@
 {
-  "name": "colour-console",
-  "version": "1.2.0",
-  "description": "",
-  "main": "src/index.js",
-  "scripts": {
-    "prepare": "husky install",
-    "cm": "git-cz",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chrisEff/colour-console.git"
-  },
-  "author": "Christian F",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chrisEff/colour-console/issues"
-  },
-  "homepage": "https://github.com/chrisEff/colour-console#readme",
-  "config": {
-    "commitizen": {
-      "path": "@commitlint/cz-commitlint"
-    }
-  },
-  "devDependencies": {
-    "@chriseff/eslint-config": "^3.0.0",
-    "@commitlint/cli": "^16.0.1",
-    "@commitlint/config-conventional": "^16.0.0",
-    "@commitlint/cz-commitlint": "^16.0.0",
-    "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "commitizen": "^4.2.4",
-    "eslint-config-prettier": "^8.3.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.1.4",
-    "prettier": "^2.5.1",
-    "semantic-release": "^18.0.1"
-  }
+	"name": "colour-console",
+	"version": "1.2.0",
+	"description": "",
+	"main": "src/index.js",
+	"scripts": {
+		"prepare": "husky install",
+		"cm": "git-cz",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"semantic-release": "semantic-release"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/chrisEff/colour-console.git"
+	},
+	"author": "Christian F",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/chrisEff/colour-console/issues"
+	},
+	"homepage": "https://github.com/chrisEff/colour-console#readme",
+	"config": {
+		"commitizen": {
+			"path": "@commitlint/cz-commitlint"
+		}
+	},
+	"devDependencies": {
+		"@chriseff/eslint-config": "^3.0.0",
+		"@commitlint/cli": "^16.0.1",
+		"@commitlint/config-conventional": "^16.0.0",
+		"@commitlint/cz-commitlint": "^16.0.0",
+		"@semantic-release/changelog": "^6.0.1",
+		"@semantic-release/git": "^10.0.1",
+		"commitizen": "^4.2.4",
+		"eslint-config-prettier": "^8.3.0",
+		"husky": "^7.0.4",
+		"lint-staged": "^12.1.4",
+		"prettier": "^2.5.1",
+		"semantic-release": "^18.0.1"
+	}
 }
