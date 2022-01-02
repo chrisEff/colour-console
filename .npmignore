@@ -3,4 +3,6 @@
 .github/
 .husky/
 .lintstagedrc.js
+.prettierignore
+.prettierrc.js
 .releaserc.js
