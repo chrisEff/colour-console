@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/chrisEff/colour-console/compare/v1.2.0...v1.2.1) (2022-01-09)
+
+
+### Bug Fixes
+
+* console.timeLog() was broken ([ee4f257](https://github.com/chrisEff/colour-console/commit/ee4f25740ac913846e7aeb94cfaaab5c82ed0059))
+
 # [1.2.0](https://github.com/chrisEff/colour-console/compare/v1.1.2...v1.2.0) (2021-12-31)
 
 
