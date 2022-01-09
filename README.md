@@ -30,7 +30,7 @@ console.trace('This is a trace.')
 console.timeEnd('Printing these logs took')
 ```
 
-![example output](example1.png)
+![example output](https://raw.githubusercontent.com/chrisEff/colour-console/main/example1.png)
 
 ## But I don't like those ugly emojis!
 
@@ -43,4 +43,4 @@ console.useEmoji = false
 
 right after importing this package and you're good:
 
-![example output](example2.png)
+![example output](https://raw.githubusercontent.com/chrisEff/colour-console/main/example2.png)

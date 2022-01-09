@@ -6,3 +6,4 @@
 .prettierignore
 .prettierrc.js
 .releaserc.js
+example*.png
