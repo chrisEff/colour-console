@@ -26,7 +26,7 @@
 	},
 	"devDependencies": {
 		"@chriseff/eslint-config": "^3.0.0",
-		"@commitlint/cli": "^16.0.1",
+		"@commitlint/cli": "^16.0.2",
 		"@commitlint/config-conventional": "^16.0.0",
 		"@commitlint/cz-commitlint": "^16.0.0",
 		"@semantic-release/changelog": "^6.0.1",
@@ -34,8 +34,8 @@
 		"commitizen": "^4.2.4",
 		"eslint-config-prettier": "^8.3.0",
 		"husky": "^7.0.4",
-		"jest": "^27.4.5",
-		"lint-staged": "^12.1.4",
+		"jest": "^27.4.7",
+		"lint-staged": "^12.1.7",
 		"prettier": "^2.5.1",
 		"pretty-quick": "^3.1.3",
 		"semantic-release": "^18.0.1"
