@@ -77,6 +77,15 @@ console.time = function (label) {
 	}
 }
 
+console.oldTimeLog = console.timeLog
+console.timeLog = function (label) {
+	if (console.useEmoji) {
+		console.oldTimeLog('⏱  ' + c.cyan + label + c.reset)
+	} else {
+		console.oldTimeLog(c.cyan + '[TIME] ' + label + c.reset)
+	}
+}
+
 console.oldTimeEnd = console.timeEnd
 console.timeEnd = function (label) {
 	if (console.useEmoji) {
