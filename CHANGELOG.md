@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/chrisEff/colour-console/compare/v1.2.1...v1.3.0) (2022-01-10)
+
+
+### Features
+
+* use brighter colors by default (with possibility to return to regular colors) ([258f282](https://github.com/chrisEff/colour-console/commit/258f282881f99ebbc63901685dbacc57795b7c2c))
+
 ## [1.2.1](https://github.com/chrisEff/colour-console/compare/v1.2.0...v1.2.1) (2022-01-09)
 
 
