@@ -19,6 +19,16 @@
 		"url": "https://github.com/chrisEff/colour-console/issues"
 	},
 	"homepage": "https://github.com/chrisEff/colour-console#readme",
+	"keywords": [
+		"colour",
+		"colours",
+		"color",
+		"colors",
+		"console",
+		"terminal",
+		"log",
+		"output"
+	],
 	"config": {
 		"commitizen": {
 			"path": "@commitlint/cz-commitlint"
