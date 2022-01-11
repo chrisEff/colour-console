@@ -29,11 +29,6 @@
 		"log",
 		"output"
 	],
-	"config": {
-		"commitizen": {
-			"path": "@commitlint/cz-commitlint"
-		}
-	},
 	"devDependencies": {
 		"@chriseff/eslint-config": "^3.0.0",
 		"@commitlint/cli": "^16.0.2",
