@@ -3,22 +3,16 @@
 	"version": "1.3.0",
 	"description": "Colourful output for console.log(), console.warn(), etc.",
 	"main": "src/index.js",
-	"scripts": {
-		"prepare": "husky install",
-		"cm": "git-cz",
-		"test": "jest",
-		"semantic-release": "semantic-release"
-	},
+	"author": "Christian F",
+	"license": "MIT",
+	"homepage": "https://github.com/chrisEff/colour-console#readme",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/chrisEff/colour-console.git"
 	},
-	"author": "Christian F",
-	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/chrisEff/colour-console/issues"
 	},
-	"homepage": "https://github.com/chrisEff/colour-console#readme",
 	"keywords": [
 		"colour",
 		"colours",
@@ -29,6 +23,12 @@
 		"log",
 		"output"
 	],
+	"scripts": {
+		"prepare": "husky install",
+		"cm": "git-cz",
+		"test": "jest",
+		"semantic-release": "semantic-release"
+	},
 	"devDependencies": {
 		"@chriseff/eslint-config": "^3.0.0",
 		"@commitlint/cli": "^16.0.2",
