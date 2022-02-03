@@ -1,3 +1,10 @@
+### 1.3.1 (2022-02-03)
+
+
+### Bug Fixes
+
+* fix github pages release 3cc4b94
+
 # [1.3.0](https://github.com/chrisEff/colour-console/compare/v1.2.1...v1.3.0) (2022-01-10)
 
 
