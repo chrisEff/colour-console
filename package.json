@@ -6,6 +6,9 @@
 	"author": "Christian F",
 	"license": "MIT",
 	"homepage": "https://github.com/chrisEff/colour-console#readme",
+	"files": [
+		"/src"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/chrisEff/colour-console.git"
