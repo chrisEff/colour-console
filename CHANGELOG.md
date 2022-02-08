@@ -1,3 +1,11 @@
+### 1.3.2-beta.1 (2022-02-08)
+
+
+### Build System and Dependencies
+
+* update dependencies ab2585f
+* whitelist files for NPM instead of blacklisting 7fc35af
+
 ### 1.3.1 (2022-02-03)
 
 
