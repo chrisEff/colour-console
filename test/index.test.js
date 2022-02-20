@@ -1,4 +1,5 @@
 require('../src/index')
+console.useBrightColors = false
 
 describe('console.error', () => {
 	console.oldError = jest.fn()
