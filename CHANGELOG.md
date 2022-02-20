@@ -1,3 +1,15 @@
+### 1.3.3 (2022-02-20)
+
+
+### Reverts
+
+* "fix: fix github pages release" a297231
+
+
+### Build System and Dependencies
+
+* update dependencies f08f32f
+
 ### 1.3.2 (2022-02-08)
 
 
