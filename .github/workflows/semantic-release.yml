@@ -28,10 +28,7 @@ jobs:
         run: yarn test
 
       - name: execute semantic-release
-        run: |
-          echo GITHUB_REPOSITORY ${GITHUB_REPOSITORY}
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npx semantic-release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
