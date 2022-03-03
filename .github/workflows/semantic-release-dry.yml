@@ -1,4 +1,4 @@
-name: CI
+name: semantic-release dry-run
 
 # Controls when the workflow will run
 on:
