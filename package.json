@@ -35,7 +35,7 @@
 	},
 	"devDependencies": {
 		"@chriseff/eslint-config": "^3.0.4",
-		"@commitlint/cli": "^16.3.0",
+		"@commitlint/cli": "^17.0.2",
 		"@commitlint/config-conventional": "^16.2.4",
 		"@commitlint/cz-commitlint": "^16.3.0",
 		"@semantic-release/changelog": "^6.0.1",
