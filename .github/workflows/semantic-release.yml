@@ -28,7 +28,7 @@ jobs:
 
       - name: execute semantic-release
         if: contains(fromJSON('["refs/heads/main", "refs/heads/alpha", "refs/heads/beta"]'), github.ref)
-        run: yarn semantic-release
+        run: HUSKY=0 yarn semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
