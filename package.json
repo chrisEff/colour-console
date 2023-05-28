@@ -29,7 +29,6 @@
 	],
 	"scripts": {
 		"prepare": "husky install",
-		"cm": "git-cz",
 		"test": "jest",
 		"semantic-release": "semantic-release"
 	},
