@@ -1,3 +1,34 @@
+### 1.3.4 (2023-05-28)
+
+
+### Build System and Dependencies
+
+* update dependencies 9e33579
+* update dependencies 5e15d77
+* update dependencies e4caa6e
+* update dependencies 10b0d00
+* update dependencies d0b67e0
+* update dependencies 7ffefba
+* update dependencies 024564d
+* update dependencies 3b21e80
+* update dependencies f6f99c5
+* update dependencies cdaa6a1
+* update dependencies 02c31b9
+* update dependencies a759735
+* update dependencies 867d45e
+* update dependencies c98f61d
+* update dependencies 326957e
+* update dependencies c5d9e4e
+* update dependencies 1e59353
+* update dependencies ab56f6c
+* update dependencies 88794e8
+* update dependencies 3bb8dad
+* update dependencies d7edc93
+* update dependencies 228bbcd
+* update dependencies 87a1524
+* update dependencies efd8dc1
+* update dependencies 9e9e30b
+
 ### 1.3.3 (2022-02-20)
 
 

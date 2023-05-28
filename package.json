@@ -1,6 +1,6 @@
 {
 	"name": "colour-console",
-	"version": "1.3.3",
+	"version": "1.3.4",
 	"description": "Colourful output for console.log(), console.warn(), etc.",
 	"main": "src/index.js",
 	"author": "Christian F",
