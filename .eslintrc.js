@@ -1,3 +1,11 @@
 module.exports = {
-	extends: ['@chriseff', 'prettier'],
+	env: {
+		es2021: true,
+		node: true,
+	},
+	extends: ['standard', 'plugin:prettier/recommended'],
+	parserOptions: {
+		ecmaVersion: 'latest',
+		sourceType: 'script',
+	},
 }
