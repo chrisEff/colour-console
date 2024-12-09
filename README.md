@@ -12,7 +12,7 @@ but this seems a little overkill?
 
 Look no further! With this package you have found exactly what you need!
 
-Just install it, import it once at the top of you project's entry file and forget about it!
+Just install it, import it once at the top of your project's entry file and forget about it!
 
 `npm i colour-console` or `yarn add colour-console`
 
