@@ -56,7 +56,7 @@ console.trace = function () {
 	console.error = function () {
 		const args = [...arguments]
 		if (args[0].startsWith('Trace: ')) {
-			args[0] = args[0].substr(7)
+			args[0] = args[0].substring(7)
 		}
 
 		if (console.useEmoji) {
