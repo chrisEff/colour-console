@@ -1,3 +1,21 @@
+## 1.3.6 (2024-12-09)
+
+### Bug Fixes
+
+* replace deprecated `substr` with `substring` 62d5eb4
+
+### Documentation
+
+* fix type in README.md 559de7f
+* recommend using `import` rather than `require` cf3d0c8
+
+### Build System and Dependencies
+
+* force usage of conventional-changelog-conventionalcommits v8 because of a bug in v7 d518a46
+* migrate to eslint v9 bacf846
+* migrate to husky v9 d51bf79
+* update dependencies 7b3b17a
+
 ## 1.3.5 (2023-06-17)
 
 
