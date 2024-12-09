@@ -14,10 +14,16 @@ Look no further! With this package you have found exactly what you need!
 
 Just install it, import it once at the top of your project's entry file and forget about it!
 
-`npm i colour-console` or `yarn add colour-console`
+```bash
+npm i colour-console
+```
+or
+```bash
+yarn add colour-console
+```
 
 ```js
-require('colour-console')
+import 'colour-console' // or "require('colour-console')" if you're still using commonjs
 
 console.time('Printing these logs took')
 
