@@ -37,8 +37,9 @@ node_modules/
 # Output of 'npm pack'
 *.tgz
 
-# Yarn Integrity file
+# Yarn
 .yarn-integrity
+.yarn/install-state.gz
 
 # Jetbrains
 .idea/
