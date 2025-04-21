@@ -33,24 +33,24 @@
 		"semantic-release": "semantic-release"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^19.6.0",
-		"@commitlint/config-conventional": "^19.6.0",
-		"@commitlint/cz-commitlint": "^19.5.0",
+		"@commitlint/cli": "^19.8.0",
+		"@commitlint/config-conventional": "^19.8.0",
+		"@commitlint/cz-commitlint": "^19.8.0",
 		"@semantic-release/changelog": "^6.0.3",
 		"@semantic-release/git": "^10.0.1",
 		"commitizen": "^4.3.1",
-		"eslint": "^9.16.0",
-		"eslint-config-prettier": "^9.1.0",
+		"eslint": "^9.25.0",
+		"eslint-config-prettier": "^10.1.2",
 		"eslint-config-standard": "^17.1.0",
 		"eslint-plugin-import": "^2.31.0",
-		"eslint-plugin-n": "^17.14.0",
-		"eslint-plugin-prettier": "^5.2.1",
+		"eslint-plugin-n": "^17.17.0",
+		"eslint-plugin-prettier": "^5.2.6",
 		"eslint-plugin-promise": "^7.2.1",
 		"husky": "^9.1.7",
 		"jest": "^29.7.0",
-		"lint-staged": "^15.2.10",
-		"prettier": "^3.4.2",
-		"semantic-release": "^24.2.0"
+		"lint-staged": "^15.5.1",
+		"prettier": "^3.5.3",
+		"semantic-release": "^24.2.3"
 	},
 	"resolutions": {
 		"conventional-changelog-conventionalcommits": ">= 8.0.0"
